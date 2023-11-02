@@ -1,7 +1,5 @@
 package model.memento;
-
 import java.awt.Point;
-
 import javax.swing.ImageIcon;
 
 public class OriginatorPlayer {

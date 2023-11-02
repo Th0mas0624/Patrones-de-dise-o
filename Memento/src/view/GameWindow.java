@@ -13,13 +13,7 @@ public class GameWindow extends JFrame {
         pack(); // Ajusta el tamaño del JFrame según su contenido
         
         setLocationRelativeTo(null); // Centra la ventana en la pantalla
-        setVisible(true);    
-        
-    }
-
-  
-
-   
-    
+        setVisible(true);         
+    }  
 }
 

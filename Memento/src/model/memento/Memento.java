@@ -14,6 +14,4 @@ public class Memento {
     public Point getPlayerLocation() {
         return playerLocation;
     }
-
- 
 }

@@ -1,7 +1,5 @@
 package model.memento;
-
 import java.util.Stack;
-
 public class Caretaker {
     private OriginatorPlayer originatorPlayer;
     private Stack<Memento> history;
