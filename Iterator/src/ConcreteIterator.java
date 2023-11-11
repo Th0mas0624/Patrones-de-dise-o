@@ -2,14 +2,14 @@ import java.util.List;
 
 public class ConcreteIterator implements Iterator{
 
-    private List<String> collection;
+    private List<Nombres> collection;
     private int posActual = 0;
 
-    public ConcreteIterator(List<String> collection){
+    public ConcreteIterator(List<Nombres> collection){
         this.collection = collection;
     }
     @Override
-    public String getNext() {
+    public Nombres getNext() {
         if(this.hasMore()){
             return collection.get(posActual++);
         }else{

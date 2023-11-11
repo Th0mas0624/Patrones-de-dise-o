@@ -1,4 +1,4 @@
 public interface Iterator {
-    public String getNext();
+    public Nombres getNext();
     public boolean hasMore();
 }

@@ -2,9 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ConcreteConllection {
-    private List<String> colletion = new ArrayList<>();
+    private List<Nombres> colletion = new ArrayList<>();
 
-    public void add(String objeto){
+    public void add(Nombres objeto){
         colletion.add(objeto);
     }
 
